@@ -35,7 +35,7 @@ app.use(session({
   
 
 // mongoose.connect("mongodb://localhost:27017/userDB");
-mongoose.connect("mongodb://0.0.0.0:27017/userDB",{
+mongoose.connect("mongodb+srv://AjeeT:Test123@cluster0.9smghzn.mongodb.net/userDB",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
